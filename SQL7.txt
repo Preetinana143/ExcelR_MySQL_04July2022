@@ -1,0 +1,476 @@
+DECLARE 
+    message varchar2(100) := 'Hell Everyone! Welcome to ExcelR'; 
+BEGIN 
+     
+        dbms_output.put_line(message); 
+ 
+END; 
+
+/
+
+DECLARE 
+    message varchar2(100) := 'Hello Everyone! Welcome to ExcelR'; 
+BEGIN 
+     
+        dbms_output.put_line(message); 
+ 
+END; 
+
+/
+
+DECLARE 
+    -- variable declaration 
+    message varchar2(100) := 'Hello Everyone! Welcome to ExcelR'; 
+BEGIN 
+    /* 
+    *   Print the variable value 
+    */ 
+        dbms_output.put_line(message); 
+END; 
+
+/
+
+DECLARE 
+    -- variable declaration 
+    message varchar2(100) := 'Hello Everyone! Welcome to ExcelR'; 
+BEGIN 
+    /*   Print the variable value    */ 
+        dbms_output.put_line(message); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 10; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of x and y is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || 'and' || y || is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || 'and' || y || 'is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and' || y || ' is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    -- variable declaration 
+    message varchar2(100) := 'Hello Everyone! Welcome to ExcelR'; 
+BEGIN 
+    /*   Print the variable value    */ 
+        dbms_output.put_line(message); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  res); 
+      dbms_output.put_line(' Sum of  x  and  y  is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  res); 
+      dbms_output.put_line(' Sum of  x  and  y  is : ' ||  res); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      -- res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x+y ); 
+      dbms_output.put_line(' Prod of  x  and  y  is : ' ||  x*y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      -- res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x+y ); 
+      dbms_output.put_line(' Sum of  x  and  y  is : ' ||  x+y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      -- res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x+y ); 
+     -- dbms_output.put_line(' Sum of  x  and  y  is : ' ||  x+y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  res ); 
+     -- dbms_output.put_line(' Sum of  x  and  y  is : ' ||  x+y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x + y ); 
+     -- dbms_output.put_line(' Sum of  x  and  y  is : ' ||  x+y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  res ); 
+     -- dbms_output.put_line(' Sum of  x  and  y  is : ' ||  x+y); 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x+y );   
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  x + y );   
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+    y integer := 20; 
+    res integer; 
+BEGIN 
+      res :=  x + y; 
+      dbms_output.put_line(' Sum of ' || x || ' and ' || y || ' is : ' ||  (x + y) );   
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    IF (x == 10) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is not 10'); 
+    END IF; 
+END
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    IF ( x == 10 ) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is not 10'); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is not 10'); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 100; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is not 10'); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 100; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 99; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is 10'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 20; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is ten'); 
+    ELSIF ( x = 20 ) THEN 
+        dbms_output.put_line(' x is twenty'); 
+    ELSIF ( x = 30 ) THEN 
+        dbms_output.put_line(' x is thirty'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END;
+
+/
+
+DECLARE 
+    x integer := 200; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is ten'); 
+    ELSIF ( x = 20 ) THEN 
+        dbms_output.put_line(' x is twenty'); 
+    ELSIF ( x = 30 ) THEN 
+        dbms_output.put_line(' x is thirty'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 200; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is ten'); 
+    ELSIF ( x = 20 ) THEN 
+        dbms_output.put_line(' x is twenty'); 
+    ELSIF ( x = 30 ) THEN 
+        dbms_output.put_line(' x is thirty'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END; 
+
+
+/
+
+DECLARE 
+    x integer := 200; 
+BEGIN 
+    IF ( x = 10 ) THEN 
+        dbms_output.put_line(' x is ten'); 
+    ELSIF ( x = 20 ) THEN 
+        dbms_output.put_line(' x is twenty'); 
+    ELSIF ( x = 30 ) THEN 
+        dbms_output.put_line(' x is thirty'); 
+    ELSE 
+        dbms_output.put_line(' x is ' || x); 
+    END IF; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+        IF x > 50 THEN 
+            exit; 
+        END IF; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+        IF x > 100 THEN 
+            exit; 
+        END IF; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    WHILE x < 50 LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    WHILE x <= 50 LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+    x integer := 10; 
+BEGIN 
+    FOR x in 1 .. 10 LOOP 
+        dbms_output.put_line(x); 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+    x integer; 
+BEGIN 
+    x := 10; 
+    WHILE x <= 50 LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE 
+BEGIN 
+    x := 10; 
+    WHILE x <= 50 LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+    END LOOP; 
+END; 
+
+/
+  -- Changed
+DECLARE 
+    x integer; 
+BEGIN 
+    x := 10; 
+    WHILE x <= 50 LOOP 
+        dbms_output.put_line(x); 
+        x := x + 10; 
+    END LOOP; 
+END; 
+
+/
+
+DECLARE
+    x integer;
+BEGIN
+    FOR x in 1 .. 10 LOOP
+        dbms_output.put_line((x*x));
+    END LOOP;
+END;
+/
